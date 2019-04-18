@@ -9,12 +9,12 @@ If you want to install on real environment, you can run this script.<br>
 If you want to install on virtual environment, you can run this script.<br>
 `./run_all_virtualenv.sh`<br>
 
-###※Notice:
+### ※Notice:
 **If you still want to use to python2.7, you need to annotation #sudo apt-get -y purge python2.7* in sh/apt-get_remove_some_package.sh**
 
-###OS Environment
+### OS Environment
 [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
  
-####Reference source:
+#### Reference source:
 -[Install OpenCV 4 on your Raspberry Pi](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/) <br>
 -[linux shell計時程序](http://www.52souji.net/linux-shell-clocking-script.html)
