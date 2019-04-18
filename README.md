@@ -9,7 +9,7 @@ If you want to install on real environment, you can run this script.<br>
 If you want to install on virtual environment, you can run this script.<br>
 `./run_all_virtualenv.sh`<br>
 
-### ※Notice:
+※Notice:<br>
 **If you still want to use to python2.7, you need to annotation #sudo apt-get -y purge python2.7* in sh/apt-get_remove_some_package.sh**
 
 ### OS Environment
