@@ -8,7 +8,7 @@ cd $HOME/openCV4_install_file/opencv-4.0.0/build/
 # have access to SIFT/SURF and other patented algorithms.
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D CMAKE_INSTALL_PREFIX=/usr/local \
-    -D OPENCV_EXTRA_MODULES_PATH=~/openCV4_install_file/opencv_contrib-4.0.0/modules \
+    -D OPENCV_EXTRA_MODULES_PATH=$HOME/openCV4_install_file/opencv_contrib-4.0.0/modules \
     -D ENABLE_NEON=ON \
     -D ENABLE_VFPV3=ON \
     -D BUILD_TESTS=OFF \

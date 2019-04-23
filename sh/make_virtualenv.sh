@@ -1,5 +1,5 @@
 # Read ~/.profile and  path variable be updated.
-source ~/.profile
+source $HOME/.profile
 # Create python virtual environment and specified interpreter with python3.
 mkvirtualenv py3cv4 -p python3
 # Activate py3cv4 virtual environment.
