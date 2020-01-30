@@ -1,4 +1,4 @@
-# Create a cv2.cpython-35m-arm-linux-gnueabihf.so shortcut to /usr/lib/python3/dist-packages/cv2.so.
+# Create a cv2.cpython-37m-arm-linux-gnueabihf.so shortcut to /usr/lib/python3/dist-packages/cv2.so.
 sudo ln -s /usr/local/python/cv2/python-3.7/cv2.cpython-37m-arm-linux-gnueabihf.so /usr/lib/python3/dist-packages/cv2.so
 
 echo "link_opencv4_in_to_your_python3.sh finish!"
