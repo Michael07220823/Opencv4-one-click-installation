@@ -38,7 +38,7 @@ sh/unzip_opevcv_main_and_opencv_contrib.sh
 sh/pip_install_virtualenv_and_virtualenvwrapper.sh
 
 # Write environment variable to .profile file.
-sh/edit_.profile.sh
+sh/edit_bashrc.sh
 
 # Build py3cv4 virtual environment and install numpy by pip3.
 sh/make_virtualenv.sh
