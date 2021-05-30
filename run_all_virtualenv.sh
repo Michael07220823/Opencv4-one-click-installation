@@ -25,8 +25,8 @@ sh/apt-get_install_numerical_optimizations_for_opencv.sh
 # Install python 3 development headers.
 sh/apt-get_install_python3_development_headers.sh
 
-# Create openCV4_install_file directory.
-sh/mkdir_opencv4_install_file.sh
+# Create opencv4_install_file directory.
+sh/mkdir_opencv4_install_directory.sh
 
 # Download opevcv and opencv_contrib compressed files.
 sh/download_opevcv_main_and_opencv_contrib.sh
@@ -53,7 +53,7 @@ sh/cmake_opencv4.sh
 sh/compile_opencv4.sh
 
 # Create a shortcut to virtual environment directory.
-sh/link_opencv4_in_to_your_python3_virtual_environment.sh
+sh/link_cv2_to_python3_virtual_environment.sh
 
 # Store end time to now variable.
 now=$(date "+%s")
