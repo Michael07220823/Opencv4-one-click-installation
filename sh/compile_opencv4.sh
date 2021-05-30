@@ -1,5 +1,5 @@
 # Enter build directory
-cd $HOME/opencv4_install_file/opencv-4.0.0/build/
+cd $HOME/opencv4_install_file/opencv-4.4.0/build/
 
 # Compile opencv4 by four cores. 
 make -j 4

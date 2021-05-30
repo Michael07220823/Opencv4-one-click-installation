@@ -1,5 +1,5 @@
 # Enter build directory.
-cd $HOME/opencv4_install_file/opencv-4.0.0/build/
+cd $HOME/opencv4_install_file/opencv-4.4.0/build/
 
 # Run cmake to configure the OpenCV 4 build:
 # Be sure to update the above command to use the correct OPENCV_EXTRA_MODULES_PATH  path.
@@ -8,7 +8,7 @@ cd $HOME/opencv4_install_file/opencv-4.0.0/build/
 # have access to SIFT/SURF and other patented algorithms.
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D CMAKE_INSTALL_PREFIX=/usr/local \
-    -D OPENCV_EXTRA_MODULES_PATH=$HOME/opencv4_install_file/opencv_contrib-4.0.0/modules \
+    -D OPENCV_EXTRA_MODULES_PATH=$HOME/opencv4_install_file/opencv_contrib-4.4.0/modules \
     -D ENABLE_NEON=ON \
     -D ENABLE_VFPV3=ON \
     -D BUILD_TESTS=OFF \
